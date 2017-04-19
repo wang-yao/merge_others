@@ -49,8 +49,8 @@ Modules下可以选择设置app及plugin的build.gradle，包括编译版本，�
 
 <div style="width: 800px">
 <h5>AS开发小技巧</h5>
-1.jcenter库中为项目自动下载添加库，比如：向项目中添加gson解析功能，as>File>Project Structure>Modules>Dependencies>+
-Library dependency>Choose Library Dependency>search gson>add ok>自动下载添加build.gradle\dependencies\compile'gson pkg'>自动引用到External Libraries
+1.jcenter库中为项目自动下载添加库，比如：向项目中添加gson解析功能，as>File>Project Structure>Modules>Dependencies>+ Library dependency>Choose Library Dependency>search gson>add ok>自动下载添加build.gradle\dependencies\compile'gson pkg'>自动引用到External Libraries。
+如果知道包名，可以在dependencies中直接添加compile，IDE会提示是否同步sync now，同意后也会自动下载，比如添加compile 'com.tencent.mm.opensdk:wechat-sdk-android-with-mta:+'。
 </div>
 
 </body>
