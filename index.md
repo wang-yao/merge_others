@@ -43,7 +43,7 @@ Modules下可以选择设置app及plugin的build.gradle，包括编译版本，�
 <h5>Android studio快捷键</h5>
 1.代码提示补全快捷键ctrl+alt+space。<br>
 2.导包快捷键alt+enter。<br>
-3.生成set和ge方法，重写父类方法快捷键alt+insert。<br>
+3.生成set和get方法，重写父类方法快捷键alt+insert。<br>
 </div>
 
 </body>
