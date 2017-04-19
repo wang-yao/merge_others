@@ -39,5 +39,12 @@ sdk会下载到as默认路径或配置的sdk路径下，可以在configure>setti
 Modules下可以选择设置app及plugin的build.gradle，包括编译版本，测试版本及相关引用等设置。<br>
 </div>
 
+<div style="width: 800px">
+<h5>Android studio快捷键</h5>
+1.代码提示补全快捷键ctrl+alt+space。<br>
+2.导包快捷键alt+enter。<br>
+3.生成set和ge方法，重写父类方法快捷键alt+insert。<br>
+</div>
+
 </body>
 </html>
