@@ -46,5 +46,12 @@ Modules下可以选择设置app及plugin的build.gradle，包括编译版本，�
 3.生成set和get方法，重写父类方法快捷键alt+insert。<br>
 </div>
 
+
+<div style="width: 800px">
+<h5>AS开发小技巧</h5>
+1.jcenter库中搜索添加jar包，比如：向项目中添加gson.jar，as>File>Project Structure>Modules>Dependencies>+
+Library dependency>Choose Library Dependency>search gson>add ok>自动下载添加build.gradle\dependencies\compile'gson pkg'>自动引用到External Libraries
+</div>
+
 </body>
 </html>
