@@ -49,7 +49,7 @@ Modules下可以选择设置app及plugin的build.gradle，包括编译版本，�
 
 <div style="width: 800px">
 <h5>AS开发小技巧</h5>
-1.jcenter库中搜索添加jar包，比如：向项目中添加gson.jar，as>File>Project Structure>Modules>Dependencies>+
+1.jcenter库中为项目自动下载添加库，比如：向项目中添加gson解析功能，as>File>Project Structure>Modules>Dependencies>+
 Library dependency>Choose Library Dependency>search gson>add ok>自动下载添加build.gradle\dependencies\compile'gson pkg'>自动引用到External Libraries
 </div>
 
