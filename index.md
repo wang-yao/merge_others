@@ -13,10 +13,9 @@ android studio作为google官方推荐开发工具，随着android系统不断�
 <a href="https://developer.android.google.cn/index.html?hl=zh-cn" style="text-decoration: none;">Android studio官方下载地址及安装方式</a>
 </h5>
 1.android studio在windows下有包含sdk和不包含sdk的安装方式，及无sdk的无安装绿色版。<br>
-2.以.zip安装作为例子。<br>
 <img alt="下载" src="url.png" width="500px"><br>
-3.下载后解压到任何目录下即可，依次进入android-studio > bin > 运行studio64.exe<br>
-4.初次运行会提示是否使用既有配置、是否使用代理、是否连网下载android tools及platforms等相关选项，根据自己的系统环境自主选择。
+2.下载后解压到任何目录下即可，依次进入android-studio > bin > 运行studio64.exe<br>
+3.初次运行会提示是否使用既有配置、是否使用代理、是否连网下载android tools及platforms等相关选项，根据自己的系统环境自主选择。
 </div>
 
 <div style="width: 800px">
@@ -27,6 +26,9 @@ android studio作为google官方推荐开发工具，随着android系统不断�
 3.与as相关的配置及环境存放位置，as IDE集成了jre及相关plugins（...android-studio\jre|plugins），默认安装好后是可以直接新建及运行项目的。
 sdk会下载到as默认路径或配置的sdk路径下，可以在configure>settings>Appearance & behavior>system settings>android sdk修改。<br>
 4.与as配置相关的文件和AndroidStudioProjects存放在同一目录下，.android（存放keystore等），.AndroidStudio2.3（IDE配置存档），.gradle（gradle工具）...。<br>
+5. .AndroidStudio xx路径修改，进入Android Studio的安装目录，进入bin文件夹，用文本编辑软件打开idea.properties，去掉以下两项的注释符号#，修改对应的路径为新路径即可。
+6. .gradle路径修改，File>Settings>Build,Execution,Deployment>Gradle>Service directory path。
+7.gradle下载地址<span><a href="https://services.gradle.org/distributions/">Gradle Build Tool</a></span>
 </div>
 
 <div style="width: 800px">
