@@ -6,13 +6,13 @@
 <body>
 
 <p>
-Android Studio作为Google官方推荐开发工具，随着Android系统不断更新，可以预见会在以后逐步替代Eclipse成为Android Application的主要开发工具。
+Android Studio作为Google官方推荐开发工具，随着Android系统不断更新，可以预见会逐步替代Eclipse成为Android Application的主要开发工具。
 </p>
 <div style="width: 800px">
 <h5>
 <a href="https://developer.android.google.cn/index.html?hl=zh-cn" style="text-decoration: none;">官方下载地址及安装方式</a>
 </h5>
-1.android studio在windows下有包含sdk和不包含sdk的安装方式，及无sdk的无安装绿色版。<br>
+1.Android Studio在windows下有包含SDK和不包含SDK的安装方式，及无SDK的无安装压缩版。<br>
 <img alt="下载" src="url.png" width="500px"><br>
 2.下载后解压到任何目录下即可，依次进入android-studio > bin > 运行studio64.exe<br>
 3.初次运行会提示是否使用既有配置、是否使用代理、是否连网下载android tools及platforms等相关选项，根据自己的系统环境自主选择。
@@ -21,15 +21,16 @@ Android Studio作为Google官方推荐开发工具，随着Android系统不断�
 <div style="width: 800px">
 
 <h5>配置</h5>
-1.android studio安装好后进入到欢迎界面，常用功能包括创建新项目，打开已有as项目，从版本管理中导出项目，导入eclipse项目。<br>
+1.Android Studio安装好后进入到欢迎界面，常用功能包括创建新项目，打开已有gradle项目，从版本管理中导出项目，导入Eclipse项目。<br>
 2.可以在欢迎页面中设置相关功能，包括IDE及项目的相关设置。<br>
-3.与as相关的配置及环境存放位置，as IDE集成了jre及相关plugins（...android-studio\jre|plugins），默认安装好后是可以直接新建及运行项目的。
-sdk会下载到as默认路径或配置的sdk路径下，可以在configure>settings>Appearance & behavior>system settings>android sdk修改。<br>
+3.相关的配置及环境存放位置，as IDE集成了jre及相关plugins（...android-studio\jre|plugins），默认安装好后是可以直接新建及运行项目的。
+SDK会下载到默认路径或配置的SDK路径下，可以在configure>settings>Appearance & behavior>system settings>android sdk修改。<br>
 4.Android Studio默认配置路径${user.home}（C:\Users\xx）。<br>
-5.与as配置相关的文件和AndroidStudioProjects存放在同一目录下，.android（存放keystore等），.AndroidStudio2.3（IDE配置存档），.gradle（gradle工具）...。<br>
+5.配置相关的文件和AndroidStudioProjects存放在同一目录下，.android（存放keystore等），.AndroidStudio2.3（IDE配置存档），.gradle（gradle工具）。<br>
 6. .AndroidStudio xx路径修改，进入Android Studio的安装目录，进入bin文件夹，用文本编辑软件打开idea.properties，去掉以下两项的注释符号#，修改对应的路径为新路径即可。<br>
 7. .gradle路径修改，File>Settings>Build,Execution,Deployment>Gradle>Service directory path。<br>
-8.<span><a href="https://services.gradle.org/distributions/">Gradle Build Tool</a></span>，.gradle下载地址。Gradle覆盖为${user.home}\.gradle\wrapper\dists\gradle-xxx-all\xxxxxxxxxx。
+8.<span><a href="https://services.gradle.org/distributions/">Gradle Build Tool</a></span>，.gradle下载地址。Gradle覆盖为${user.home}\.gradle\wrapper\dists\gradle-xxx-all\xxxxxxxxxx。<br>
+9.Version Control配置，File>Settings>Appearance & Behavior>Subversion>Git|Subversion|GitHub。
 </div>
 
 <div style="width: 800px">
