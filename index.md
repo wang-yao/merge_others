@@ -6,11 +6,11 @@
 <body>
 
 <p>
-android studio作为google官方推荐开发工具，随着android系统不断更新，可以预见会在以后逐步替代eclipse成为android application的主要开发工具。
+Android Studio作为Google官方推荐开发工具，随着Android系统不断更新，可以预见会在以后逐步替代Eclipse成为Android Application的主要开发工具。
 </p>
 <div style="width: 800px">
 <h5>
-<a href="https://developer.android.google.cn/index.html?hl=zh-cn" style="text-decoration: none;">Android studio官方下载地址及安装方式</a>
+<a href="https://developer.android.google.cn/index.html?hl=zh-cn" style="text-decoration: none;">官方下载地址及安装方式</a>
 </h5>
 1.android studio在windows下有包含sdk和不包含sdk的安装方式，及无sdk的无安装绿色版。<br>
 <img alt="下载" src="url.png" width="500px"><br>
@@ -20,7 +20,7 @@ android studio作为google官方推荐开发工具，随着android系统不断�
 
 <div style="width: 800px">
 
-<h5>Android studio配置</h5>
+<h5>配置</h5>
 1.android studio安装好后进入到欢迎界面，常用功能包括创建新项目，打开已有as项目，从版本管理中导出项目，导入eclipse项目。<br>
 2.可以在欢迎页面中设置相关功能，包括IDE及项目的相关设置。<br>
 3.与as相关的配置及环境存放位置，as IDE集成了jre及相关plugins（...android-studio\jre|plugins），默认安装好后是可以直接新建及运行项目的。
@@ -33,7 +33,7 @@ sdk会下载到as默认路径或配置的sdk路径下，可以在configure>setti
 </div>
 
 <div style="width: 800px">
-<h5>Android studio Project</h5>
+<h5>Project</h5>
 1.File>New下面可以进行新建、导入、版本管理获取项目，也可以新建、导入Module（功能与ADT library相同）。<br>
 2.File>open Recent下面可以打开其他的as项目。<br>
 3.File>close project关闭当前项目返回到欢迎界面。<br>
@@ -43,7 +43,7 @@ Modules下可以选择设置app及plugin的build.gradle，包括编译版本，�
 </div>
 
 <div style="width: 800px">
-<h5>Android studio快捷键</h5>
+<h5>快捷键</h5>
 1.代码提示补全快捷键ctrl+alt+space。<br>
 2.导包快捷键alt+enter。<br>
 3.生成set和get方法，重写父类方法快捷键alt+insert。<br>
@@ -52,7 +52,7 @@ Modules下可以选择设置app及plugin的build.gradle，包括编译版本，�
 
 
 <div style="width: 800px">
-<h5>AS开发小技巧</h5>
+<h5>开发技巧</h5>
 1.jcenter库中为项目自动下载添加库，比如：向项目中添加gson解析功能，as>File>Project Structure>Modules>Dependencies>+ Library dependency>Choose Library Dependency>search gson>add ok>自动下载添加build.gradle\dependencies\compile'gson pkg'>自动引用到External Libraries。
 如果知道包名，可以在dependencies中直接添加compile，IDE会提示是否同步sync now，同意后也会自动下载，比如添加compile 'com.tencent.mm.opensdk:wechat-sdk-android-with-mta:+'。
 </div>
