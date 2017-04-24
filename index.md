@@ -29,7 +29,7 @@ sdk会下载到as默认路径或配置的sdk路径下，可以在configure>setti
 5.与as配置相关的文件和AndroidStudioProjects存放在同一目录下，.android（存放keystore等），.AndroidStudio2.3（IDE配置存档），.gradle（gradle工具）...。<br>
 6. .AndroidStudio xx路径修改，进入Android Studio的安装目录，进入bin文件夹，用文本编辑软件打开idea.properties，去掉以下两项的注释符号#，修改对应的路径为新路径即可。<br>
 7. .gradle路径修改，File>Settings>Build,Execution,Deployment>Gradle>Service directory path。<br>
-8.<span><a href="https://services.gradle.org/distributions/">Gradle Build Tool</a></span>，.gradle下载地址。
+8.<span><a href="https://services.gradle.org/distributions/">Gradle Build Tool</a></span>，.gradle下载地址。Gradle覆盖为${user.home}\.gradle\wrapper\dists\gradle-xxx-all\xxxxxxxxxx。
 </div>
 
 <div style="width: 800px">
