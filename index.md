@@ -25,10 +25,11 @@ android studio作为google官方推荐开发工具，随着android系统不断�
 2.可以在欢迎页面中设置相关功能，包括IDE及项目的相关设置。<br>
 3.与as相关的配置及环境存放位置，as IDE集成了jre及相关plugins（...android-studio\jre|plugins），默认安装好后是可以直接新建及运行项目的。
 sdk会下载到as默认路径或配置的sdk路径下，可以在configure>settings>Appearance & behavior>system settings>android sdk修改。<br>
-4.与as配置相关的文件和AndroidStudioProjects存放在同一目录下，.android（存放keystore等），.AndroidStudio2.3（IDE配置存档），.gradle（gradle工具）...。<br>
-5. .AndroidStudio xx路径修改，进入Android Studio的安装目录，进入bin文件夹，用文本编辑软件打开idea.properties，去掉以下两项的注释符号#，修改对应的路径为新路径即可。
-6. .gradle路径修改，File>Settings>Build,Execution,Deployment>Gradle>Service directory path。<br>
-7<span><a href="https://services.gradle.org/distributions/">Gradle Build Tool</a></span>，.gradle下载地址。
+4.Android Studio默认配置路径${user.home}（C:\Users\xx）。<br>
+5.与as配置相关的文件和AndroidStudioProjects存放在同一目录下，.android（存放keystore等），.AndroidStudio2.3（IDE配置存档），.gradle（gradle工具）...。<br>
+6. .AndroidStudio xx路径修改，进入Android Studio的安装目录，进入bin文件夹，用文本编辑软件打开idea.properties，去掉以下两项的注释符号#，修改对应的路径为新路径即可。<br>
+7. .gradle路径修改，File>Settings>Build,Execution,Deployment>Gradle>Service directory path。<br>
+8.<span><a href="https://services.gradle.org/distributions/">Gradle Build Tool</a></span>，.gradle下载地址。
 </div>
 
 <div style="width: 800px">
