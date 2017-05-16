@@ -7,4 +7,5 @@
 7. adb devices(List of devices attached) <br>
 8. adb shell <br>
 9. adb shell am broadcast <br>
+10. adb logcat <br>
 
