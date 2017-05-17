@@ -5,7 +5,7 @@
 [组件开发](/tangram_Ali/组件开发.md) <br>
 [处理点击](/tangram_Ali/处理点击.md) <br>
 [处理曝光](/tangram_Ali/处理曝光.md) <br>
-[异步加载数据](/tangram_Ali/异步加载数据.md) <br>
+[异步加载数据](/tangram_Ali/加载数据.md) <br>
 [使用定时器](/tangram_Ali/使用定时器.md) <br>
 [使用组件辅助模块](/tangram_Ali/使用组件辅助模块.md) <br>
 [使用布局辅助模块](/tangram_Ali/使用布局辅助模块.md) <br>
