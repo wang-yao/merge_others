@@ -1,2 +1,3 @@
-[kotlin文档](http://www.kotlincn.net/docs/)
-[maven](https://repo1.maven.org)
+[kotlin文档](http://www.kotlincn.net/docs/) <br>
+[maven](https://repo1.maven.org) <br>
+[zxing](https://repo1.maven.org/maven2/com/google/zxing/android-core/3.3.0/)
